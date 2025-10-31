@@ -80,11 +80,31 @@ h1, h2, h3, h4, h5, h6 {
         color: white!important;
     }
 }
+.border-ftc {
+    border: 2px solid #F57E25;
+}
+.shade-ftc {
+    background-color: rgba(245, 126, 37,.507);
+    color:white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
 
 .bg-fll {
     /* FLL Red */
     background-color: #ED1C24;
     color: white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
+.border-fll {
+    border: 2px solid #ED1C24;
+}
+.shade-fll {
+    background-color: rgba(237, 28, 36,.507);
+    color:white!important;
     h1, h2, h3, h4, h5, h6 {
         color: white!important;
     }
