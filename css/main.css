@@ -1,0 +1,71 @@
+/* FIRST Approved Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styling */
+body {
+   font-family: 'Roboto', 'Arial';
+   overflow-x: hidden;
+    margin: 0;
+    padding: 0; 
+    color: #4F4C4D; 
+}
+main {
+    margin: 5px;
+}
+.header {
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+    margin-left: 0px;
+    .header-logo {
+        height: 40px;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+/* !General Styling */
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #231f20;
+}
+
+/* !Typography */
+
+/* Each FIRST Robotics Program has an associated program color */
+.bg-frc { 
+    /* FRC Blue */
+    background-color: #0066b3;
+    color:white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
+
+.bg-ftc {
+    /* FTC Orange */
+    background-color: #F57E25;
+    color:white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
+
+.bg-fll {
+    /* FLL Red */
+    background-color: #ED1C24;
+    color: white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
+
+.bg-gray {
+    /* FIRST Approved Gray */
+    background-color: #9A989A;
+    color:white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
