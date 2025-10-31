@@ -11,24 +11,37 @@
     <body>
         <header class="header">
             <img src="./img/first/Horizontal/RGB/FIRST_Horz_RGB.png" alt="FIRST Logo" class="header-logo">
-            <h1>FIRST Programs and Their Colors</h1>
+            <nav>
+                <ul class="nav-links" style="display: inline-flex; padding: 10px; margin:10px; height:40px; list-style-type: none; gap: 15px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./frc.html">FRC</a></li>
+                    <li><a href="./ftc.html">FTC</a></li>
+                    <li><a href="./fll.html">FLL</a></li>
+                </ul>
+            </nav>
         </header>
-        <main>
-            <section class="bg-frc" style="padding: 20px; color: white;">
-                <h2>FRC (FIRST Robotics Competition)</h2>
-                <p>This section represents the FRC program with its associated blue color.</p>
-            </section>
-            <section class="bg-ftc" style="padding: 20px; color: white; margin-top: 10px;">
-                <h2>FTC (FIRST Tech Challenge)</h2>
-                <p>This section represents the FTC program with its associated orange color.</p>
-            </section>
-            <section class="bg-fll" style="padding: 20px; color: white; margin-top: 10px;">
-                <h2>FLL (FIRST LEGO League)</h2>
-                <p>This section represents the FLL program with its associated red color.</p>
-            </section>
-            <section class="bg-gray" style="padding: 20px; color: white; margin-top: 10px;">
-                <h2>General FIRST Programs</h2>
-                <p>This section uses the approved gray color for general FIRST programs.</p>
+        <main class="container">
+            <article>
+                <p> <i>FIRST&reg</i> (For Inspiration and Recognition of Science and Technology) is an organization that runs several robotics programs for students of different age groups. Each program has its own unique color scheme that represents its identity. Below are the colors associated with each of the main FIRST programs:</p>
+            </article>
+            <section style="display: inline-flex; margin:auto; width: 100%; justify-content: center; gap: 20px;">
+                <section class="bg-fll" style="padding: 20px; color: white; margin-top: 10px;">
+                    <h2>FLL (<i>FIRST&reg</i> LEGO&reg League)</h2>
+                    <p>This section represents the FLL program with its associated red color.</p>
+                </section>                
+                <section class="bg-ftc" style="padding: 20px; color: white; margin-top: 10px;">
+                    <h2>FTC (<i>FIRST&reg</i> Tech Challenge)</h2>
+                    <p>This section represents the FTC program with its associated orange color.</p>
+                </section>
+                <section class="shade-frc" style="padding-top: 20px; margin-top: 10px;">
+                    <div class="" style="padding-bottom: 0;">
+                        <img height="60px" src="./img/frc/firstroboticscompetition-logo-all-formats/FIRSTRoboticsCompetition-IconHorizontal/FIRSTRobotics_iconHorz_RGB_reverse.png">
+                    </div>
+                    <div class="" style="width: 100%; padding:0; margin:0;">
+                        <h2>FRC (<i>FIRST&reg</i> Robotics Competition)</h2>
+                        <p>This section represents the FRC program with its associated blue color.</p>
+                    </div>
+                </section>
             </section>
         </main>
     </body>

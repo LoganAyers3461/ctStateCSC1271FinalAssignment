@@ -7,7 +7,9 @@ body {
    overflow-x: hidden;
     margin: 0;
     padding: 0; 
-    color: #4F4C4D; 
+    color: #4F4C4D;
+    font-size: large;
+    background-color: #F5F5F5;
 }
 main {
     margin: 5px;
@@ -27,7 +29,7 @@ main {
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
+    font-weight: bolder;
     color: #231f20;
 }
 
@@ -37,6 +39,33 @@ h1, h2, h3, h4, h5, h6 {
 .bg-frc { 
     /* FRC Blue */
     background-color: #0066b3;
+    color:white!important;
+    h1, h2, h3, h4, h5, h6 {
+        color: white!important;
+    }
+}
+.header {
+    border-left: none!important;
+    border-top: none!important;
+    border-right: none!important;
+    border-bottom: 2px solid #9A989A;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &.border-frc {
+        border-bottom: 2px solid #0066b3;
+    }
+    &.border-ftc {
+        border-bottom: 2px solid #F57E25;
+    }
+    &.border-fll {
+        border-bottom: 2px solid #ED1C24;
+    }
+}
+.border-frc {
+    border: 2px solid #0066b3;
+}
+.shade-frc {
+    background-color: rgba(0, 101, 179, 0.507);
     color:white!important;
     h1, h2, h3, h4, h5, h6 {
         color: white!important;
