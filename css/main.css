@@ -111,6 +111,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.border-gray {
+    border: 2px solid #9A989A;
+
+}
+table .border-gray {
+    border: 1px solid #9A989A;
+}
+
 .bg-gray {
     /* FIRST Approved Gray */
     background-color: #9A989A;
