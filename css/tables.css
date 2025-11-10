@@ -1,0 +1,9 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+table .border-gray {
+    border: 1px solid #9A989A;
+}
