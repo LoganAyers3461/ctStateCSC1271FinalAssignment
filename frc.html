@@ -48,6 +48,48 @@
                     <td>FRC promotes core values such as Gracious Professionalism<sup>&reg</sup> and Coopertition<sup>&reg</sup>, encouraging respect and collaboration among teams.</td>
                 </tr>
             </table>
+            <br>
+            <h3 style="text-align:center;">Interested in joining?</h3>
+            <h4 style="text-align: center;">Fill out this contact form for steps on finding a local team to connect with!</h4>
+            <form class="shade-frc border-frc" style="width: 25%; padding: 5px; margin: auto; ">
+                <div style="display: flex; flex-direction: column; gap: 10px; width: 100%; margin: auto; justify-content: center;">
+                    <div style="display:flex; flex-direction: row;  gap: 20px; width: 100%; justify-content:center; align-content:center; margin:auto; padding: 5px;">
+                        <div>
+                            <label for="fname">First name:</label><br>
+                            <input style="" type="text" id="fname" name="fname" required><br>
+                        </div>
+                        <div>
+                            <label for="lname">Last name:</label><br>
+                            <input style="" type="text" id="lname" name="lname" required><br>
+                        </div>
+                    </div>
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Phone number:</label><br>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="location">Location (City, State/Province):</label><br>
+                    <input type="text" id="location" name="location" required><br>
+                    <label for="age">Prospective Student's Age:</label><br>
+                    <input type="number" id="age" name="age" min="13" max="19" required><br>
+                    <label for="gradeLevel">Prospective Student's grade level:</label>
+                    <input type="number" id="gradeLevel" name="gradeLevel" min="9" max="12" required><br>
+                    <label for="experience">Interests in the program:</label><br>
+                    <textarea id="experience" name="experience" rows="4" cols="50" placeholder="Describe what you're looking to find in the FIRST Robotics Competition..."></textarea><br>
+                    <div>
+                        <label for="bestContact">Best method of contact:</label><br>
+                        <select id="bestContact" name="bestContact" required>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="acceptTerms" name="acceptTerms" value="yes" required>
+                        <label for="acceptTerms"> I agree to recieve communications at the provided contact information</label><br>
+                    </div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </main>
     </body>
 </html>
